@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+
+Name: habotat/bots/reminder/ReminderBot.class
+PluginName: Reminder Bot
+PluginType: HabotatBot
+PluginDescription: A bot that sends you reminders.
+PluginIcon: habotat/bots/reminder/images/reminderbot.gif
+PluginHelpURL: http://www.hyperrealm.com/habotat/bots/remind/index.html
+PluginVersion: 1.0
+

@@ -1,0 +1,30 @@
+
+- I18N for column names in tables
+
+- "&amp;", etc., appearing in XSLT converted HTML.
+
+------- DOCUMENTATION --------
+
+- create online docs for BidBot
+
+------- EXTERNAL BUGS --------
+
+- DAIM: why does it take so long to get the first IM after signing on to AIM?
+- DAIM: how the hell do you sign out? session.kill() sometimes throws
+  ConcurrentModificationException.
+- DAIM: when connection is lost, absolutely no indication delivered to
+  application code
+
+- What is the deal with bold labels reverting to a plain font? Swing bug?
+
+- Smack bug? This type of error (malformed XHTML) shouldn't barf the
+  connection:
+
+java.io.EOFException: no more data available - expected end tag </stream:stream> to close start tag <stream:stream> from line 1, parser stopped on END_TAG seen ...l xmlns:str="urn:ietf:params:xml:ns:xmpp-streams"/></stream:error>... @1:1452        at org.xmlpull.mxp1.MXParser.fillBuf(MXParser.java:3014)
+        at org.xmlpull.mxp1.MXParser.more(MXParser.java:3025)
+        at org.xmlpull.mxp1.MXParser.nextImpl(MXParser.java:1144)
+        at org.xmlpull.mxp1.MXParser.next(MXParser.java:1093)
+        at org.jivesoftware.smack.PacketReader.parsePackets(PacketReader.java:337)
+        at org.jivesoftware.smack.PacketReader.access$000(PacketReader.java:42)
+        at org.jivesoftware.smack.PacketReader$1.run(PacketReader.java:62)
+

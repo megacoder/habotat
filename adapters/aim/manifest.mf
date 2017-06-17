@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+
+Name: habotat/adapters/aim/AIMIMAdapter.class
+PluginName: AIM
+PluginType: HabotatAdapter
+PluginDescription: An Instant Messenger adapter for the AIM (OSCAR) protocol.
+PluginIcon: habotat/adapters/aim/images/aim.gif
+PluginVersion: 1.0
+

@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+
+Name: habotat/bots/horoscope/HoroBot.class
+PluginName: Horoscope Bot
+PluginType: HabotatBot
+PluginDescription: A bot that provides horoscopes from The Onion.
+PluginIcon: habotat/bots/horoscope/images/horobot.gif
+PluginHelpURL: http://www.hyperrealm.com/habotat/bots/horo/index.html
+PluginVersion: 1.0
+

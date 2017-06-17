@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+
+Name: habotat/bots/stock/StockBot.class
+PluginName: Stock Bot
+PluginType: HabotatBot
+PluginDescription: A bot that provides stock quotes.
+PluginIcon: habotat/bots/stock/images/stockbot.gif
+PluginHelpURL: http://www.hyperrealm.com/habotat/bots/stock/index.html
+PluginVersion: 1.0
+

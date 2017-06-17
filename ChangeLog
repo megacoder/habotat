@@ -1,0 +1,14 @@
+2005-10-23  Mark Lindner  <markl@neuromancer>
+
+	* Bugfix in AIM IM Adapter; HTML entities were not being converted
+	  back to the respective characters. Caused incorrect parsing of bot
+	  commands.
+
+	* Bugfix in eBay sniping bot: NullPointerExceptions when loading/saving
+	  data. Incorrect URL for eBay sign-in.
+
+	* Bugfix in API: cookies with no expiration date were being expired,
+	  thus breaking sign-in to eBay in eBay sniping bot.
+
+	
+

@@ -1,0 +1,18 @@
+#!/bin/sh
+
+flags=
+jflags=
+
+if [ "`uname -s`" = "Darwin" ];
+then
+  jflags='-Xdock:name="Habotat"'
+  flags=-N
+fi
+
+cd @prefix@/lib/@PACKAGE@
+
+java -Dcom.apple.macos.useScreenMenuBar=false \
+     -Dapple.awt.showGrowBox=false \
+     -Dcom.apple.macos.smallTabs=false \
+     $jflags \
+     -jar habotat.jar $flags $@

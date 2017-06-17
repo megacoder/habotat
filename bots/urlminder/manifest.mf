@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+
+Name: habotat/bots/urlminder/URLMinderBot.class
+PluginName: URLMinder Bot
+PluginType: HabotatBot
+PluginDescription: A bot that keeps track of URLs for you.
+PluginIcon: habotat/bots/urlminder/images/urlminderbot.gif
+PluginHelpURL: http://www.hyperrealm.com/habotat/bots/urlminder/index.html
+PluginVersion: 1.0
+

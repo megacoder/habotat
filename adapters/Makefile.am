@@ -1,0 +1,2 @@
+
+SUBDIRS = jabber yahoo aim

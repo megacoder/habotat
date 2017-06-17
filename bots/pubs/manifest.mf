@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+
+Name: habotat/bots/pubs/PubsBot.class
+PluginName: Publications Bot
+PluginType: HabotatBot
+PluginDescription: A bot that provides headlines from various online publications.
+PluginIcon: habotat/bots/pubs/images/pubsbot.gif
+PluginHelpURL: http://www.hyperrealm.com/habotat/bots/pubs/index.html
+PluginVersion: 1.0
+

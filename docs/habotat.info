@@ -1,0 +1,100 @@
+This is habotat.info, produced by makeinfo version 4.6 from
+habotat.texi.
+
+
+File: habotat.info,  Node: Top,  Next: Overview,  Up: (dir)
+
+cfl
+***
+
+* Menu:
+
+* Overview::
+* Installation::
+* Using Habotat::
+* Standard Bots::
+* Writing New Bots::
+* License::
+* Function Index::
+* Type Index::
+
+
+File: habotat.info,  Node: Overview,  Next: Installation,  Prev: Top,  Up: Top
+
+* Menu:
+
+Overview
+********
+
+
+File: habotat.info,  Node: Installation,  Next: Using Habotat,  Prev: Overview,  Up: Top
+
+* Menu:
+
+Installation
+************
+
+
+File: habotat.info,  Node: Using Habotat,  Next: Standard Bots,  Prev: Installation,  Up: Top
+
+* Menu:
+
+Using Habotat
+*************
+
+
+File: habotat.info,  Node: Standard Bots,  Next: Writing New Bots,  Prev: Using Habotat,  Up: Top
+
+* Menu:
+
+The Standard Bots
+*****************
+
+
+File: habotat.info,  Node: Writing New Bots,  Next: License,  Prev: Standard Bots,  Up: Top
+
+* Menu:
+
+Writing New Bots
+****************
+
+
+File: habotat.info,  Node: License,  Next: Function Index,  Prev: Writing New Bots,  Up: Top
+
+License
+*******
+
+Habotat is distributed under the terms of the GPL. The complete text of
+the license appears below.
+
+
+
+
+
+File: habotat.info,  Node: Function Index,  Next: Type Index,  Prev: License,  Up: Top
+
+Function Index
+**************
+
+* Menu:
+
+File: habotat.info,  Node: Type Index,  Prev: Function Index,  Up: Top
+
+Type Index
+**********
+
+* Menu:
+
+
+Tag Table:
+Node: Top75
+Node: Overview290
+Node: Installation400
+Node: Using Habotat528
+Node: Standard Bots663
+Node: Writing New Bots810
+Node: License949
+Node: Function Index1162
+Node: Type Index1294
+
+End Tag Table

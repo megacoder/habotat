@@ -1,0 +1,141 @@
+			       HABOTAT
+		      A home for all your Bots.
+
+OVERVIEW
+========
+
+Habotat is a miniature application server for hosting Instant
+Messenger Bots. These are essentially small applications that you can
+interact with using an IM client.
+
+Currently, Habotat supports the following IM protocols:
+
+* AOL Instant Messenger (OSCAR protocol)
+* Jabber (including GoogleTalk)
+* Yahoo Instant Messenger
+
+Support for each of the above protocols is made possible through these fine
+libraries:
+
+daim  - https://daim.dev.java.net/
+Smack - http://www.jivesoftware.org/smack/
+jYMSG - http://jymsg9.sourceforge.net/
+
+Limitations in the Yahoo protocol make it ill-suited for this type of
+use, but it is nevertheless functional for simple Bots.
+
+Additional protocols may be supported in the future.
+
+Habotat also depends on these additional open-source projects:
+
+Kiwi - http://hyperrealm.com/main.php?s=kiwi
+JDOM - http://www.jdom.org/
+
+
+LICENSE
+=======
+
+Habotat is distributed under the GNU General Public License. See the
+file `COPYING' for the license terms.
+
+Habotat is "free" but you are welcome (and encouraged!) to make a
+monetary contribution if you find this software useful.
+
+
+INSTALLATION
+============
+
+Habotat was developed on Linux and thus the build files are all built
+around the GNU autotools. I recognize that this is a problem for
+people running on Windows, but I absolutely loathe 'Ant'. However, if
+someone would like to contribute (and maintain) Ant scripts for this
+project, I'd be happy to include them in the installation.
+
+In the following discussion, "<install-prefix>" refers to the desired
+base directory for your installation, for example "/usr/local" or
+"/usr/local/habotat".
+
+To build the software, make sure that you have a JDK installed and
+that the directory containing 'javac', 'jar', etc., is in your
+PATH. Since the code uses generics and other features which are only
+present in JDK 1.5, you must use that version (or a later version).
+
+Note that OS X comes with JDK 1.4 installed by default, so you must
+download the JDK 1.5 update from Apple. The directory structure of
+Apple's JDK distribution is different from that of Sun's; to make it
+work with the build files, do the following:
+
+1. Set the JDK_HOME environment variable to the following path:
+   /System/Library/Frameworks/JavaVM.framework/Versions/1.5/
+
+2. Create a symbolic link in the aforementioned directory as follows:
+   cd /System/Library/Frameworks/JavaVM.framework/Versions/1.5/
+   sudo ln -s Commands bin
+
+
+To build and install the package, simply do the traditional:
+
+./configure --prefix=<install-prefix>
+make
+make install
+
+To start the server:
+
+<install-prefix>/bin/habotat.sh
+
+
+GETTING STARTED
+===============
+
+The first time you start the server, you will be greeted with a setup
+wizard. Here you must specify the directory where Habotat will store
+its data files.
+
+Once you've completed the setup steps, take the following steps to
+create your first bot:
+
+1. Open the IM Adapters dialog ("IM Adapters..." under the "Edit"
+menu).  Click [+] to add a new adapter. Browse to the directory
+<install-prefix>/lib/habotat/adapters and select the appropriate IM
+adapter for the protocol you wish to use. You may repeat this step for
+the remaining adapters.
+
+2. Click on the "New" button on the "Accounts" tab and enter the
+details for your IM account.
+
+3. Click on the [+] button on the "Plugins" tab to add a new bot
+plugin.  Browse to the directory <install-prefix>/lib/habotat/bots and
+select the appropriate Plugin for the bot you wish to create. You may
+repeat this step for the remaining bot plugins.
+
+4. Click on the "New" button on the "Bots" tab and enter the details
+for your new Bot.
+
+That's it! Now you can click the "Start Bot" button on the "Bots" tab
+to run your bot.
+
+
+DOCUMENTATION
+=============
+
+After configuring the project, you may generate javadoc API documentation
+by issuing the following commands:
+
+cd server
+make javadoc
+
+A complete manual will be written at some point, when there is time.
+
+
+NOTES
+=====
+
+This is a very young project, and has a long way to go before it is
+considered "release quality." I maintain quite a few open source
+projects, and have a full-time job on top of that, and Habotat is not
+presently at the top of my list of priorities.  If you are interested
+in contributing to this project, please contact me at the address
+below. See the file "TODO" for a list of things that need some
+immediate attention.
+
+Mark Lindner <mark_a_lindner@yahoo.com>

@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+
+Name: habotat/bots/jotbot/JotBot.class
+PluginName: Jot Bot
+PluginType: HabotatBot
+PluginDescription: A bot that lets you jot down notes.
+PluginIcon: habotat/bots/jotbot/images/jotbot.gif
+PluginHelpURL: http://www.hyperrealm.com/habotat/bots/jot/index.html
+PluginVersion: 1.0
+

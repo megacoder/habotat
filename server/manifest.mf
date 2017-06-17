@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: habotat.jar jdom.jar getopt.jar kiwi.jar smack.jar
+  smackx.jar ymsg.jar daim.jar log4j.jar
+Main-Class: habotat.gui.HabotatGUI

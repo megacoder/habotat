@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+
+Name: habotat/bots/echo/EchoBot.class
+PluginName: Echo Bot
+PluginType: HabotatBot
+PluginDescription: A simple bot that echoes all messages it receives.
+PluginIcon: habotat/bots/echo/images/echobot.gif
+PluginHelpURL: http://www.hyperrealm.com/habotat/bots/echo/index.html
+PluginVersion: 1.0
+

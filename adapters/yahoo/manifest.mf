@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+
+Name: habotat/adapters/yahoo/YahooIMAdapter.class
+PluginName: Yahoo
+PluginType: HabotatAdapter
+PluginDescription: An Instant Messenger adapter for the Yahoo protocol.
+PluginIcon: habotat/adapters/yahoo/images/yahoo.gif
+PluginVersion: 1.0
+

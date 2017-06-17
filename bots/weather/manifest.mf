@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+
+Name: habotat/bots/weather/WeatherBot.class
+PluginName: Weather Bot
+PluginType: HabotatBot
+PluginDescription: A bot that provides weather reports.
+PluginIcon: habotat/bots/weather/images/weatherbot.gif
+PluginHelpURL: http://www.hyperrealm.com/habotat/bots/weather/index.html
+PluginVersion: 1.0
+

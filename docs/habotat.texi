@@ -1,0 +1,117 @@
+\input texinfo.tex    @c -*-texinfo-*-
+@c 
+@c %**start of header
+
+@c All text is ignored before the setfilename.
+@setfilename habotat.info
+@settitle Habotat @value{edition}
+
+@set edition 0.2
+@set update-month July 2004
+@set update-date 11 @value{update-month}
+
+@comment %**end of header
+
+@tex
+\global\emergencystretch = .3\hsize
+@end tex
+
+@setchapternewpage odd
+
+@titlepage
+
+@title Habotat
+@subtitle An Instant Messenger Application Server
+@subtitle Version @value{edition}
+@subtitle @value{update-date}
+
+@author Mark A.@: Lindner
+
+@page
+@vskip 0pt plus 1filll
+Copyright @copyright{} 1994-2004  Mark A Lindner
+
+Permission is granted to make and distribute verbatim copies of
+this manual provided the copyright notice and this permission notice
+are preserved on all copies.
+
+Permission is granted to copy and distribute modified versions of this
+manual under the conditions for verbatim copying, provided that the entire
+resulting derived work is distributed under the terms of a permission
+notice identical to this one.
+
+@end titlepage
+
+@contents
+
+@ifnottex
+@node Top
+@comment  node-name,  next,  previous,  up
+@top cfl
+@end ifnottex
+
+@menu
+* Overview::
+* Installation::
+* Using Habotat::
+* Standard Bots::
+* Writing New Bots::
+* License::
+* Function Index::
+* Type Index::
+@end menu
+
+
+@node Overview, Installation, Top, Top
+@comment  node-name,  next,  previous,  up
+@menu
+@end menu
+@chapter Overview
+
+@node Installation, Using Habotat, Overview, Top
+@comment  node-name,  next,  previous,  up
+@menu
+@end menu
+@chapter Installation
+
+@node Using Habotat, Standard Bots, Installation, Top
+@comment  node-name,  next,  previous,  up
+@menu
+@end menu
+@chapter Using Habotat
+
+@node Standard Bots, Writing New Bots, Using Habotat, Top
+@comment  node-name,  next,  previous,  up
+@menu
+@end menu
+@chapter The Standard Bots
+
+@node Writing New Bots, License, Standard Bots, Top
+@comment  node-name,  next,  previous,  up
+@menu
+@end menu
+@chapter Writing New Bots
+
+@node License, Function Index, Writing New Bots, Top
+@comment  node-name,  next,  previous,  up
+@appendix License
+
+Habotat is distributed under the terms of the GPL. The complete text of
+the license appears below.
+
+@sp 3
+
+@include GPL.texi
+
+@node Function Index, Type Index, License, Top
+@comment  node-name,  next,  previous,  up
+@unnumbered Function Index
+
+@printindex fn
+
+@node Type Index, , Function Index, Top
+@unnumbered Type Index
+
+@printindex tp
+
+@bye

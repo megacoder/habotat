@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+
+Name: habotat/bots/execubot/ExecuBot.class
+PluginName: ExecuBot
+PluginType: HabotatBot
+PluginDescription: A bot that executes a remote command and sends its output as an IM.
+PluginIcon: habotat/bots/execubot/images/execubot.gif
+PluginVersion: 1.0
+

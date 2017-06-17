@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+
+Name: habotat/bots/news/NewsBot.class
+PluginName: News Bot
+PluginType: HabotatBot
+PluginDescription: A keyword-based news headline retrieval bot.
+PluginIcon: habotat/bots/news/images/newsbot.gif
+PluginHelpURL: http://www.hyperrealm.com/habotat/bots/news/index.html
+PluginVersion: 1.0
+

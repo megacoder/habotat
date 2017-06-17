@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+
+Name: habotat/bots/bidbot/BidBot.class
+PluginName: eBay Sniping Bot
+PluginType: HabotatBot
+PluginDescription: A bot that snipes eBay auctions.
+PluginIcon: habotat/bots/bidbot/images/bidbot.gif
+PluginVersion: 1.1
+
